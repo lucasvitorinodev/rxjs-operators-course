@@ -4,8 +4,7 @@ import { catchError, of } from 'rxjs';
 
 @Component({
   selector: 'app-ajax',
-  templateUrl: './ajax.component.html',
-  styleUrls: ['./ajax.component.scss'],
+  template: '<p>ajax works!</p>',
 })
 export class AjaxComponent implements OnInit {
   ngOnInit(): void {

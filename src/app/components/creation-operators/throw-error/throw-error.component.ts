@@ -3,8 +3,7 @@ import { throwError } from 'rxjs';
 
 @Component({
   selector: 'app-throw-error',
-  templateUrl: './throw-error.component.html',
-  styleUrls: ['./throw-error.component.scss'],
+  template: `<p>throw-error works!</p> `,
 })
 export class ThrowErrorComponent implements OnInit {
   ngOnInit(): void {

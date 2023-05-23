@@ -3,8 +3,7 @@ import { BehaviorSubject, Subject } from 'rxjs';
 
 @Component({
   selector: 'app-subject',
-  templateUrl: './subject.component.html',
-  styleUrls: ['./subject.component.scss'],
+  template: `<p>subject works!</p> `,
 })
 
 // 4. Subject

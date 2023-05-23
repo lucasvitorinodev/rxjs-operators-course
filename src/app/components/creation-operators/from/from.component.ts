@@ -3,8 +3,7 @@ import { from } from 'rxjs';
 
 @Component({
   selector: 'app-from',
-  templateUrl: './from.component.html',
-  styleUrls: ['./from.component.scss'],
+  template: '<p>from works!</p>\n',
 })
 //In RxJS, the from operator is used to create an Observable from various types of input sources, such as arrays,
 // promises, iterables, or other observables. It is a versatile operator that allows you to convert these input

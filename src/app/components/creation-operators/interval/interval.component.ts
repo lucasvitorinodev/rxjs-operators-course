@@ -3,8 +3,7 @@ import { interval } from 'rxjs';
 
 @Component({
   selector: 'app-interval',
-  templateUrl: './interval.component.html',
-  styleUrls: ['./interval.component.scss'],
+  template: `<p>interval works!</p>`,
 })
 // In RxJS, the interval operator is used to create an Observable that emits sequential numbers at a specified
 // time interval. It emits an incrementing integer value starting from 0 and emits the next value after the

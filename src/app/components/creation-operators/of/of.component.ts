@@ -1,10 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-import { from, of } from 'rxjs';
+import { of } from 'rxjs';
 
 @Component({
   selector: 'app-of',
-  templateUrl: './of.component.html',
-  styleUrls: ['./of.component.scss'],
+  template: `<p>of works!</p> `,
 })
 // In RxJS, the of operator is used to create an Observable that emits a sequence of values. It allows you to easily
 // create an Observable that emits one or more values in a synchronous manner.

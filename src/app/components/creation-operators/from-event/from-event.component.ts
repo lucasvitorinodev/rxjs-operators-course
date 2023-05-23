@@ -3,8 +3,8 @@ import { fromEvent } from 'rxjs';
 
 @Component({
   selector: 'app-from-event',
-  templateUrl: './from-event.component.html',
-  styleUrls: ['./from-event.component.scss'],
+  template: ` <p>from-event works!</p>
+    <button #myButton>BTN TEST</button>`,
 })
 // From event operator
 // In RxJS, the fromEvent operator is used to create an Observable that emits events from a specified DOM element

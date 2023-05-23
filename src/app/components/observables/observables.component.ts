@@ -3,8 +3,7 @@ import { interval, Observable } from 'rxjs';
 
 @Component({
   selector: 'app-observables',
-  templateUrl: './observables.component.html',
-  styleUrls: ['./observables.component.scss'],
+  template: `<p>observables works!</p> `,
 })
 
 // 1. Observable
