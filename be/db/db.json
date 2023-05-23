@@ -1,0 +1,7 @@
+{
+  "users": [
+    {"id":  1, "name": "Lucas Vitorino", "email": "lucas.vitorino@gmail.com"},
+    {"id":  2, "name": "Rogerio Ceni", "email": "rogerio.ceni@gmail.com"},
+      {"id":  3, "name": "Neymar Jr", "email": "neymarjr@gmail.com"}
+  ]
+}
