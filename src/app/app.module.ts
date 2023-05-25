@@ -14,6 +14,8 @@ import { ThrowErrorComponent } from './components/creation-operators/throw-error
 import { AjaxComponent } from './components/creation-operators/ajax/ajax.component';
 import { ForkjoinComponent } from './components/join-creation-operators/forkjoin/forkjoin.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ZipComponent } from './components/join-creation-operators/zip/zip.component';
+import { MergeConcatComponent } from './components/join-creation-operators/merge-concat/merge-concat.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +30,8 @@ import { HttpClientModule } from '@angular/common/http';
     ThrowErrorComponent,
     AjaxComponent,
     ForkjoinComponent,
+    ZipComponent,
+    MergeConcatComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [],

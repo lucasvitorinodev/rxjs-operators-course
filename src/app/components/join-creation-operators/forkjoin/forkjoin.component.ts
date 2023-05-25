@@ -7,7 +7,7 @@ import { ApiService } from '../../../services/api.service';
   selector: 'app-forkjoin',
   template: `<p>forkjoin works!</p>`,
 })
-//In RxJS, the forkJoin operator is used to combine the latest values from multiple Observables into a
+// In RxJS, the forkJoin operator is used to combine the latest values from multiple Observables into a
 // single Observable. It waits for all input Observables to complete and then emits an array containing
 // the last emitted value from each source Observable.
 export class ForkjoinComponent implements OnInit {
