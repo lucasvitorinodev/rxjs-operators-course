@@ -13,9 +13,9 @@ export class TimerComponent implements OnInit {
   }
 
   private operatorTimer() {
-    const values = of(1, 2, 3);
+    const values$ = of(1, 2, 3);
     timer(5000)
-      .pipe(concatMap(() => values))
+      .pipe(concatMap(() => values$))
       .subscribe((values) => console.log(values));
 
     // Create an Observable that emits values every 1 second after a 2-second initial delay

@@ -15,12 +15,12 @@ export class FromComponent implements OnInit {
   }
 
   operatorFrom() {
-    const arr = from([1, 2, 3, 4, 5, 6]);
-    const promise = from(new Promise((resolve) => resolve('hello world')));
-    const string = from('Hello world');
+    const arr$ = from([1, 2, 3, 4, 5, 6]);
+    const promise$ = from(new Promise((resolve) => resolve('hello world')));
+    const string$ = from('Hello world');
 
-    arr.subscribe((value) => console.log(value));
-    promise.subscribe((value) => console.log(value));
-    string.subscribe((value) => console.log(value));
+    arr$.subscribe((value) => console.log(value));
+    promise$.subscribe((value) => console.log(value));
+    string$.subscribe((value) => console.log(value));
   }
 }

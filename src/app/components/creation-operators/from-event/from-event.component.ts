@@ -17,8 +17,8 @@ export class FromEventComponent implements AfterViewInit {
   }
 
   private operatorFromEvent() {
-    const el = fromEvent(this.myButton.nativeElement, 'click');
+    const el$ = fromEvent(this.myButton.nativeElement, 'click');
 
-    el.subscribe((value) => console.log(value));
+    el$.subscribe((value) => console.log(value));
   }
 }

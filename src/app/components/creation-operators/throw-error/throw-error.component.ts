@@ -11,9 +11,9 @@ export class ThrowErrorComponent implements OnInit {
   }
 
   private operatorThrowError() {
-    const err = throwError('This is the error');
+    const err$ = throwError('This is the error');
 
-    err.subscribe(
+    err$.subscribe(
       (res) => {
         console.log(res);
       },

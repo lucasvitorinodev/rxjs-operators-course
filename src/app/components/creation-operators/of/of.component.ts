@@ -13,16 +13,16 @@ export class OfComponent implements OnInit {
   }
 
   operatorOf() {
-    const arr = of([1, 2, 3, 4, 5, 6]);
-    const promise = of(new Promise((resolve) => resolve('hello world')));
-    const string = of('Hello world');
+    const arr$ = of([1, 2, 3, 4, 5, 6]);
+    const promise$ = of(new Promise((resolve) => resolve('hello world')));
+    const string$ = of('Hello world');
 
-    const multiValue = of(1, 5, 8, 9);
+    const multiValue$ = of(1, 5, 8, 9);
 
-    arr.subscribe((value) => console.log(value));
-    promise.subscribe((value) => console.log(value));
-    string.subscribe((value) => console.log(value));
-    multiValue.subscribe((value) => console.log(value));
+    arr$.subscribe((value) => console.log(value));
+    promise$.subscribe((value) => console.log(value));
+    string$.subscribe((value) => console.log(value));
+    multiValue$.subscribe((value) => console.log(value));
   }
 }
 

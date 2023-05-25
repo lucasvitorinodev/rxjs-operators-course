@@ -14,13 +14,18 @@ export class IntervalComponent implements OnInit {
   }
 
   private operatorInterval() {
-    const num = interval(1000);
+    const num$ = interval(1000);
 
-    const subscription = num.subscribe((val) => {
+    console.log("=>(interval.component.ts:20) 'Subscribed!'", 'Subscribed!');
+    const subscription = num$.subscribe((val) => {
       console.log(val);
     });
 
     setTimeout(() => {
+      console.log(
+        "=>(interval.component.ts:26) 'Unsubscribed!'",
+        'Unsubscribed!'
+      );
       subscription.unsubscribe();
     }, 5000);
   }
